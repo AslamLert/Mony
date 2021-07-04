@@ -8,7 +8,7 @@ use App\Models\transections;
 class TransectionsController extends Controller
 {
     public function index(){
-        //returnview myj;wx
+        //returnview ทั่วไป
         //return view('admin.index');
         //$transections = transections::all();
         $transections = transections::all();
